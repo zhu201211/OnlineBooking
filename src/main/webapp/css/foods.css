@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/*search productpage*/
+.Searchlist{width:900px;height:auto;float:left;}
+.Searchlist .slt{border-top:1px #dddddd solid;width:898px;}
+.Searchlist ul li{float:left;width:215px;height:auto;border:1px #ededed solid;padding:2px;margin:0px 4px 5px 0;}
+.Searchlist ul li:hover{border:1px #00670c solid;}
+.Searchlist ul li img{width:215px;height:151px;}
+.Searchlist ul li .P-price{line-height:28px;color:#ff4400;}
+.Searchlist ul li .P-title{line-height:28px;color:#3d3d3d;margin:0 5px;}
+.Searchlist ul li .P-price input{font-size: 10px;float: right;text-decoration: underline;background: none;cursor: pointer;}
+.Searchlist ul li .P-shop{line-height:28px;margin:0 5px;height:28px;}
+.Searchlist ul li .P-shop .sa{color:#888888;float:left; text-decoration:underline;}
+.Searchlist ul li .P-shop .sp{color:#999;float:right;}
+
+.Sraside{width:290px;height:auto;float:left;margin-left:10px;}
+.Sraside .bestproduct{width:288px;border:1px #dddddd solid;margin:15px 0 15px 0;}
+.Sraside .bestproduct .Bpt{height:45px;line-height:45px; text-indent:1em;border-bottom:1px #dddddd solid;}
+.Sraside .bestproduct ul{margin:8px 5px;overflow:hidden;}
+.Sraside .bestproduct li{width:278px;height:auto;overflow:hidden;margin:0 0 10px 0;border-bottom:1px #dddddd dotted;}
+.Sraside .bestproduct li img{float:left;width:118px;height:83px;}
+.Sraside .bestproduct li p{display:block;width:150px;height:83px;margin-left:10px;float:left;}
+.Sraside .bestproduct li p span{height:28px;line-height:28px;}
+.Sraside .bestproduct li p span .f_name{display:block;width: 65px;overflow: hidden;float: left;}
+.Sraside .bestproduct li p span .addCart{float: left;}
+.Sraside .bestproduct li p span i{font-style:normal;font-weight:bold;color:#ff6600;}
+/*FSlist content*/
+.Fslmenu{width:1198px;height:45px;line-height:45px;margin:0 auto;border:1px #dddddd solid;border-top:none;overflow:hidden;}
+.Fslmenu a{padding:0 20px;border-right:1px #dddddd solid;display:inline-block;}
+.Fslmenu a span{display:inline-block;}
+.Fslmenu a span .s-up{margin:0 5px;background:url(../images/s-up.png) no-repeat;display:inline-block;width:7px;height:8px;}
+.Fslmenu a span .s-down{margin:0 5px;background:url(../images/s-down.png) no-repeat;display:inline-block;width:7px;height:8px;}
+.addCart{
+	background:red;
+	float:right;
+	height:18px;
+	line-height:18px;
+	padding-left:5px;
+	padding-right: 5px;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 5px;
+}

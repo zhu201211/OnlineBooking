@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*SHOP INDEX*/
+.Shop-index{width:1200px;height:auto;margin:20px auto 0; overflow:hidden; clear:both;}
+.Shop-index article{width:900px;height:auto; float:left;}
+.Shop-index article .shopinfor{width:100%;height:auto;border:1px #e7e5e6 solid;overflow:hidden;}
+.Shop-index article .shopinfor .title{height:90px;line-height:90px;border-bottom:1px #e7e5e6 solid;font-size:24px;font-weight:bold;color:#00ac40;box-shadow:5px 5px 5px #f1f1f1;background-image: -moz-linear-gradient(top, #fff, #f5f5f5); /* Firefox */background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #f5f5f5)); /* Saf4+, Chrome */filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c6ff00', endColorstr='#538300', GradientType='0'); /* IE*/}
+.Shop-index article .shopinfor .title .shop-ico{width:65px;height:65px;border-radius:50%;border:2px #dddddd solid; vertical-align:middle;margin:0 10px 0 50px;}
+.Shop-index article .shopinfor .imginfor{width: auto;height:auto;padding:5px;margin-top:10px;}
+.Shop-index article .shopinfor .imginfor .shopimg{width:150px;float:left;}
+.Shop-index article .shopinfor .imginfor .shopimg img{width:120px;height:100px;border:1px #dddddd solid;padding:5px;}
+.Shop-index article .shopinfor .imginfor .shopimg p{line-height:35px;border-bottom:1px #dddddd dotted;font-size: 15px;}
+.Shop-index article .shopinfor .imginfor .shopimg p span{font-weight:bold;}
+.Shop-index article .shopinfor .imginfor .smallpic{width:440px;height:70px;line-height:80px;margin-top:5px;}
+.Shop-index article .shopinfor .imginfor .smallpic li{width:80px;height:64px;float:left;margin:0 8px 0 0; cursor: pointer;}
+.Shop-index article .shopinfor .imginfor .smallpic li img{width:80px;height:64px;padding:0;margin:0;border:0;}
+.Shop-index article .shopinfor .imginfor .shoptext{width:700px;margin-left:30px;float:left;font-size:13px;}
+.Shop-index article .shopinfor .imginfor .shoptext p{line-height:35px;border-bottom:1px #dddddd dotted;}
+.Shop-index article .shopinfor .imginfor .shoptext p span{font-weight:bold;}
+.otherinfor{float:left; display:inline-block;width:100%;overflow:hidden;margin-top:10px;}
+
+.Shop-index aside{width:290px;height:auto; float:left;margin-left:10px; overflow:hidden;}
+
+/*public*/
+.fr{display:inline;float:left}
+.cf:after{content:"";clear:both;display:block;height:0;overflow:hidden}
+.cf{zoom:1}
+.shopcontent{width:900px;background:#fff;padding:0px; float:left;}
+.shopcontent .title2{height:40px;line-height:40px;border-bottom: 3px solid #e7e7e7;padding-bottom:10px;border:1px #dddddd solid;border-left:none;border-right:none;}
+.shopcontent .title-list{position: relative; top: 6px;}
+.shopcontent .title-list li{ width: 146px; line-height:40px; text-align: center; float: left; display: inline; cursor:pointer;font-weight:bold;color:#333333;font-size:15px;}
+.shopcontent .title-list li.on{ color: #00661c; font-weight: bold;}
+.shopcontent .title-list p{position:absolute;top:40px;left:0px;width:146px;height:7px;border-top: 3px solid #00661c; overflow: hidden; text-align: center;}
+.shopcontent .title-list b{background:#000;}
+.menutab{ height:100%; position: relative; overflow: hidden; margin-top: 20px; float:left;}
+.menutab ul{left: 0px;}
+.menutab-wrap .menutab ul li{ float: left; margin:5px;background: #f1f1f1;border: 2px solid #fafafa;}
+.menutab-wrap .menutab ul li .foodsimgsize{width:210px;height:148px;}
+.menutab-wrap .menutab ul li .item{width: 210px;margin: auto;text-align: center;}
+.menutab-wrap .menutab ul li .item .foodname{width: 210px;height: 25px; margin:auto;line-height: 25px; text-align: center;font-size: 15px;}
+.sales{font-size: 15px;color: #ff5500;}
+.addCart{
+	background:red;
+	float:right;
+	height:22px;
+	line-height:22px;
+	padding-left:5px;
+	padding-right: 5px;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.sc{float: left;text-decoration: underline;color: #00661c;}

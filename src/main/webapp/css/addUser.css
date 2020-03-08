@@ -1,0 +1,227 @@
+@charset "UTF-8";
+body {
+	position:static;
+	background-color:#f0f0f0;;
+}
+body .passport-body {
+	width:100%;
+	height:100%
+}
+
+.passport-widget-login-common {
+	position:absolute;
+	width:460px;
+	top:5px;
+	left:30%;
+}
+.passport-widget-login-common a:hover {
+	text-decoration:none
+}
+.passport-widget-login-common .header {
+	margin-bottom:15px;
+	position:relative;
+	background:transparent
+}
+.passport-widget-login-common .header>h1 {
+	margin:0;
+	height:45px;
+	line-height:45px;
+	width:350px
+}
+.passport-widget-login-common .header>h1.hide-icon {
+	background:none!important;
+	padding-left:0!important
+}
+.passport-widget-login-common .header .slogan {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	position:absolute;
+	right:0;
+	top:20px;
+	letter-spacing:3px
+}
+.passport-widget-login-common .body {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	border-radius:5px;
+	background-color:#fff;
+	-moz-box-shadow:2px 2px 5px #ccc;
+	-ms-box-shadow:2px 2px 5px #ccc;
+	-o-box-shadow:2px 2px 5px #ccc;
+	-webkit-box-shadow:2px 2px 5px #ccc;
+	box-shadow:2px 2px 5px #ccc
+}
+.passport-widget-login-common .body .btn {
+	padding-top:11px;
+	padding-bottom:10px
+}
+.passport-widget-login-common .body .form-group {
+	margin-left:0;
+	margin-right:0;
+	display:block;
+	position:relative
+}
+.passport-widget-login-common .body .form-control {
+	height:auto;
+	padding:11px 15px;
+	box-shadow:none
+}
+.passport-widget-login-common .body .form-control:focus {
+	border-color:#ccc
+}
+
+.passport-widget-login-common .body .main {
+	display:block;
+	width:100%;
+	height:400px;
+	float:left;
+	padding:30px 40px;
+	position:relative
+}
+.passport-widget-login-common .body .main .common-err-msg {
+	position:absolute;
+	color:#fc0000;
+	right:40px;
+	top:6px;
+	width:230px;
+	overflow:hidden;
+	text-align:right
+}
+.passport-widget-login-common .body .main .captcha-img {
+	margin-left:16px;
+	height:42px;
+	width:125px;
+	border:#999 solid 1px;
+	cursor:pointer
+}
+.passport-widget-login-common .body .sider {
+	display:block;
+	width:195px;
+	position:relative;
+	float:right;
+	height:385px;
+	border-top-right-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.passport-widget-login-common .body .form-register {
+	display:none
+}
+.passport-widget-login-common .body .get-sms-vcode,.passport-widget-login-common .body .sms-ing {
+	display:block;
+	position:absolute;
+	right:15px;
+	top:12px
+}
+.passport-widget-login-common .body .sms-ing {
+	color:#ccc
+}
+.passport-widget-login-common .body .sms-ing>em {
+	font-style:normal;
+	margin-left:2px
+}
+.passport-widget-login-common .body .action-group {
+	display:block;
+	padding:48px 0 10px
+}
+.passport-widget-login-common .body .login-btn {
+	width:100%
+}
+.passport-widget-login-common .body .voice-validate-container {
+	position:absolute;
+	right:0
+}
+.passport-widget-login-common .body .voice-validate {
+	display:none;
+	float:right
+}
+.passport-widget-login-common .body .forget-pwd {
+	display:block;
+	width:100px;
+	float:right;
+	text-align:right;
+	margin-bottom:2px
+}
+.passport-widget-login-common .body .captcha-group {
+	position:relative
+}
+.passport-widget-login-common .body .captcha-group .captcha-hint-new {
+	color:#ff2d4b;
+	display:none;
+	position:absolute;
+	top:48px
+}
+.passport-widget-login-common .body .vcode-input {
+	width:55%;
+	display:inline-block
+}
+.passport-widget-login-common .body .sms-login-toggle,.passport-widget-login-common .body .normal-login-toggle {
+	width:150px;
+	position:absolute;
+	bottom:40px;
+	display:none
+}
+.passport-widget-login-common .body .title-label {
+	color:#999;
+	position:absolute;
+	display:none;
+	top:12px;
+	left:-100px;
+	font-weight:400
+}
+.passport-widget-login-common .sms-login-mode .nomral-login-toggle {
+	display:block
+}
+.passport-widget-login-common .sms-login-mode .mobile-group,.passport-widget-login-common .sms-login-mode .vcode-group {
+	display:block
+}
+.passport-widget-login-common .normal-login-mode .sms-login-toggle {
+	display:block
+}
+.passport-widget-login-common .normal-login-mode .account-group {
+	display:block
+}
+.passport-widget-login-common .account-application {
+	text-align:right;
+	display:inline-block
+}
+.passport-widget-login-common .account-application:active,.passport-widget-login-common .account-application:focus,.passport-widget-login-common .account-application:visited {
+	text-decoration:none;
+	outline:0
+}
+
+.yizhan-skin .header>h1 {
+	padding-left:45px;
+	font-size:26px;
+	width:250px;
+	font-weight:700;
+	color:#00670c;
+}
+.yizhan-skin .header>.slogan {
+	color:#00670c
+}
+.yizhan-skin .body.normal-login-mode h2 {
+	border-bottom:#00670c solid 1px;
+	margin-bottom:10px;
+}
+.yizhan-skin .body.normal-login-mode .form-group {
+	margin-bottom:10px
+}
+.yizhan-skin .body.normal-login-mode .sider {
+	
+}
+
+.yizhan-skin .body.normal-login-mode .main .account-group,.yizhan-skin .body.normal-login-mode .main .captcha-group,.yizhan-skin .body.normal-login-mode .main .pwd-group {
+	display:block
+}
+.yizhan-skin .body.normal-login-mode .main .action-group {
+	padding-top:0
+}
+.yizhan-skin .body.normal-login-mode .main .login-btn {
+	background-color:#00670c;
+	border-color:#00670c;
+	color:#fff
+}
+
+

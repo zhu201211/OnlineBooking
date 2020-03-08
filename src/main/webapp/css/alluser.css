@@ -1,0 +1,29 @@
+.overlay{display: none; position: fixed; top:0%; left:0%; width: 100%; height: 100%;background-color:#000;z-index:8888;-moz-opacity: 0.7; opacity:.70; filter: alpha(opacity=77);}
+.form{display: none; position:fixed;top:2%;left:15%;border:2px solid #dddddd; background-color: white; z-index:9999; padding-top: 20px;}
+.form .sendCode{width: 100px;height: 35px;background: #5cb85c;color:white;border-radius: 5px;cursor: pointer;}
+.form .sendCode:hover{font-size: 14px;}
+.table1{width: 100%;font-size: 16px;}
+.table1 input{border:1px #dddddd solid;width: 90%;height: 40px;}
+
+.table1 .submit{
+	width: 100px;
+	background-color:#5cb85c ;
+	border: 1px solid #5cb85c;
+	cursor: pointer;
+	color:white;
+	border-radius: 10px;
+}
+.table1 .submit:hover{
+	border: 1px solid #0066FF;
+}
+.table1 .cancel{
+	width: 100px;
+	background-color:#999999;
+	cursor: pointer;
+	color:white;
+	border-radius: 3px;
+}
+.table1 tr{height:50px;margin:0;}
+.table1 .img{float: left;margin-left: 20px;width: 100px;height: 100px;}
+.table1 .filedata{float: left;margin-top: 40px;margin-left: 20px;width: 83px;height: 30px;border: none;}
+.table1 select{width: 120px;height: 30px;float: left;margin-left:20px ;}

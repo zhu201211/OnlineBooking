@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/*user center*/
+.U-nav{width:278px;height:auto;float:left;background:#f8f8f8;border:1px solid #cccccc; border-top-width:5px; border-top-color:#00670c;}
+.U-nav ul{padding:0 5px;text-align:left;}
+.U-nav li{height:45px;line-height:45px;border-bottom:1px #dddddd dotted;}
+.U-nav li i{border-top:5px solid #f1f1f1;border-left:5px solid #00661c;border-bottom:5px solid #f1f1f1;display:inline-block;margin:0 10px;}
+.U-article{width:910px;height:auto;float:left;margin-left:10px;}
+.U-article .usercenter{width:910px;height:auto;}
+.U-article .usercenter .Weltitle{border-bottom:1px #dddddd solid;}
+.U-article .usercenter .U-header{width:888px;height: auto;padding:8px 0 8px 20px;background:#f5f8fa;border:1px #e4eaee solid;}
+.U-article .usercenter .U-header img{float:left;width:80px;height:80px;border-radius:50%;}
+.U-article .usercenter .U-header p{width:790px;margin-left:15px;float:left;line-height:26px;}
+.U-article .usercenter .U-header ul{margin-left:15px;width:790px;float:left;height:20px;}
+.U-article .usercenter .U-header ul li{height:25px;line-height:25px;}
+.U-article .usercenter .s-States{border:1px #e4eaee solid;background:#fff; margin-top: 30px;}
+.U-article .usercenter .s-States li{float:left;width:19%;height:50px;line-height:50px;text-align:center;}
+/*U-ORDER DETAILS*/
+ .U-order-D{width:908px;height:auto;}
+ .U-order-D th{font-weight:bold;font-size:14px; text-align:center;border:1px #dddddd solid;background:#f1f1f1;}
+ .U-order-D td{border:1px #dddddd solid;text-align:center;}
+ .U-order-D tr{height:40px;line-height:40px;}
+ .U-order-A{width:910px;height:auto;}
+ .U-order-A tr{height:35px;line-height:35px;}
+ /*U-Shop Favorites*/
+.U-article .ShopFav{width:910px;height:auto;}
+.U-article .ShopFav .ShopFavtitle{border-bottom:2px #f1f1f1 solid;margin-bottom:10px;}
+.U-article .ShopFav ul li{width:210px;height:auto;overflow:hidden;border:1px #dddddd solid;margin:8px 5px;padding:2px; float:left;}
+.U-article .ShopFav ul li:hover{border:1px #00670c solid;}
+.U-article .ShopFav ul li img{width:210px;height:149px;}
+.U-article .ShopFav ul li p{line-height:25px;text-align:center;}
+.U-article ul li .P-shop input{font-size: 10px;float: right;text-decoration: underline;background: none;cursor: pointer;}
+.U-article ul li .P-price{line-height:28px;color:#ff4400;}
+.U-article ul li .P-title{line-height:28px;color:#3d3d3d;margin:0 5px;}
+.U-article ul li .P-shop{line-height:28px;margin:0 5px;height:28px;}
+.U-article ul li .P-shop .sa{color:#888888;float:left; text-decoration:underline;width: 120px;overflow: hidden;}
+.U-article ul li .P-shop .sp{color:#999;float:right;}
+.U-article ul li .addCart{
+	background:red;
+	float:right;
+	height:22px;
+	line-height:22px;
+	padding-left:5px;
+	padding-right: 5px;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.ym{
+	font-size: 20px;
+}
+/*U-MY ORDER*/
+.U-article .Myorder{width:910px;}
+.U-article .Myorder th{text-align:center;background:#f5f8fa;}
+.U-article .Myorder tr{border:1px #dddddd solid;height:40px;}
+.U-article .Myorder tr td{padding:8px;text-align:center;border:1px #dddddd solid;}
+
+.Myaddress input{border:1px #c1c1c1 solid;padding:5px;}
+.Myaddress .overlay{display: none; position: fixed; top:0%; left:0%; width: 100%; height: 100%;background-color:#000;z-index:8888;-moz-opacity: 0.7; opacity:.70; filter: alpha(opacity=77);}
+.Myaddress .O-L-content{display: none; position:fixed;top:25%;left:15%;width:750px;height:164px; padding:20px; border:2px solid #dddddd; background-color: white; z-index:9999; margin:0 auto; overflow: hidden;}
+.Myaddress .O-L-content li{height:35px;line-height:35px; vertical-align:middle;}
+.Myaddress .O-L-content li span{float:left; text-align:right;width:108px;}
+.Myaddress .O-L-content li p{float:left;width:600px; text-align:left;}
+.Myaddress .O-L-content li p em{padding:0px 8px;font-style:normal;}
+.Myaddress .O-L-content li p .Q_z{width:50px;}
+.Myaddress .O-L-content li p .Y_N{width:300px;}
+.Myaddress .O-L-content .button-a{padding:0px 0px 0px 138px;}
+.Myaddress .O-L-content .button-a .C-button{background:#0066ff;border:none; margin-right:10px;padding:5px 20px;border-radius:2px;color:#ffffff;font-weight:bold; cursor:pointer;}
+.Myaddress .O-L-content .button-a .Cancel-b{background:#dedede;border:none;padding:5px 20px;border-radius:2px;font-weight:bold;cursor:pointer;}
+.Myaddress .O-L-content .close-botton{position:relative;right:0px; float:right;top:-370px;}
+
+/*order information foodslist*/
+ .inforlist{width:100%;height:auto;overflow:hidden;padding:8px 0;}
+ .inforlist table{width:100%;border-bottom:1px #dddddd solid;}
+ .inforlist table th{line-height:35px;font-weight:bold;border-bottom:1px #dddddd dotted;font-size:14px;padding:0 8px;background:#f7f7f7;}
+ .inforlist table tr{line-height:35px;border-bottom:1px #dddddd solid;}
+ .inforlist table td{padding:0 8px;}
+ .inforlist table tr:hover{line-height:35px;border-bottom:1px #dddddd solid;background:#f1f1f1;}
+ .inforlist .Sum_infor{float:right; margin-top:15px;}
+ .inforlist .Sum_infor .p1{font-size:14px;font-weight:bold;}
+ .inforlist .Sum_infor .p2{font-size:14px;font-weight:bold;}
+ .inforlist .Sum_infor .p2 span{font-size:24px;font-weight:bold; color:#F00;}
+ .inforlist .Sum_infor .p3button{cursor: pointer;font-size:14px;font-weight:bold;width:120px;height:45px;line-height:45px;background:#ff0000;display:block;text-align:center;color:#fff; border-radius:5px; margin-top:15px;float:right;}
+ .flow_title{font-size:16px;border-top:2px #cccccc solid;background:#f1f1f1;display:block;font-weight:bold;height:35px;line-height:35px;padding-left:8px;}
+.time{
+	font-size: 10px;
+	float: right;
+}
+
+/*U-Accounts management*/
+.U-article .AccManage{width:910px;height:auto;}
+.U-article .AccManage .AMTitle{border-bottom:2px #f1f1f1 solid;margin-bottom:10px;}
+.U-article .AccManage p{line-height:35px;}
+.U-article .AccManage p a{color:#3366cc;}
+.U-article .AccManage table{width:100%;}
+.U-article .AccManage table input{border:1px #dddddd solid;padding:8px 8px;margin-left:8px;}
+.U-article .AccManage table img{margin: 0;padding-top: 20px;}
+.U-article .AccManage table .filedata{
+	position: relative;
+	border: none;
+	width: 70px;
+	overflow: hidden;
+}
+.U-article .AccManage table .submit{
+	width: 100px;
+	background-color:#5cb85c ;
+	border: 1px solid #5cb85c;
+	cursor: pointer;
+	color:white;
+	border-radius: 10px;
+}
+.U-article .AccManage table .submit:hover{
+	border: 1px solid #0066FF;
+}
+.U-article .AccManage table .cancel{
+	width: 100px;
+	background-color:#999999;
+	cursor: pointer;
+	color:white;
+	border-radius: 3px;
+}
+.U-article .AccManage table .cancel:hover{text-decoration: underline;}
+.U-article .AccManage tr{height:50px;line-height: 50px;margin:0 auto;}
+
+.overlay{display: none; position: fixed; top:0%; left:0%; width: 100%; height: 100%;background-color:#000;z-index:8888;-moz-opacity: 0.7; opacity:.70; filter: alpha(opacity=77);}
+.form2{display: none; position:fixed;top:35%;left:35%;border:2px solid #dddddd; background-color: white; z-index:9999; padding-top: 20px;}
+.form2 .sendCode{width: 100px;height: 35px;background: #5cb85c;color:white;border-radius: 5px;cursor: pointer;}
+.form2 .sendCode:hover{font-size: 14px;}
+

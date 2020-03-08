@@ -1,0 +1,106 @@
+body{padding: 0px;
+    margin: 0px;
+    line-height: 1.6;
+    font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif !important;
+    color: #222;
+    font-size: 16px;
+}
+
+input{
+    transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    padding-left:10px;
+    height: 30px;
+    width: 240px;
+}
+
+input:focus{
+    border:1px solid rgb(55, 182, 238);;
+    box-shadow: 0 0 2px rgb(33, 162, 238);
+    -webkit-box-shadow: 0 0 2px rgb(33, 162, 238);
+    -moz-box-shadow: 0 0 2px rgb(33, 162, 238);
+}
+.div_from_aoto{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:10px;
+}
+.laber_from{
+    width: 160px;
+    float: left;
+    line-height: 30px;
+    color: #222;
+    text-align: right;
+    font-weight: normal;
+    margin-right: 30px;
+}
+
+.input_select{
+    width: 240px;
+    height: 35px;
+    cursor: pointer;
+    z-index: 10;
+}
+option{
+	z-index: 100;
+}
+.btn-success {
+	color:#fff;
+	background-color:#5cb85c;
+	border-color:#4cae4c
+}
+.btn-success:hover,.btn-success:focus,.btn-success.focus,.btn-success:active,.btn-success.active,.open>.dropdown-toggle.btn-success {
+	color:#fff;
+	background-color:#449d44;
+	border-color:#398439
+}
+.btn {
+	display:inline-block;
+	padding:6px 12px;
+	margin-bottom:0;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.42857143;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	-ms-touch-action:manipulation;
+	touch-action:manipulation;
+	cursor:pointer;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+	background-image:none;
+	border:1px solid transparent;
+	border-radius:4px;
+	position: relative;
+	left: 180px;
+	top:13px
+}
+.btn:focus,.btn:active:focus,.btn.active:focus,.btn.focus,.btn:active.focus,.btn.active.focus {
+	outline:thin dotted;
+	outline:5px auto -webkit-focus-ring-color;
+	outline-offset:-2px
+}
+.btn:hover,.btn:focus,.btn.focus {
+	text-decoration:none
+}
+.btn:active,.btn.active {
+	background-image:none;
+	outline:0;
+	-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);
+	box-shadow:inset 0 3px 5px rgba(0,0,0,.125)
+}
+.filedata{
+	border: none;
+	position: relative;
+	top:35px;
+	right: 180px;
+	width: 73px;
+	overflow: hidden;
+}

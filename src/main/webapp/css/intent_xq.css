@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+.flow_title{display:block;width:80%;margin: auto;margin-top: 10px;margin-bottom: 10px;}
+.flow_title .title{
+	display: block;
+	width: 180px;
+	margin: auto;
+	font: "微软雅黑";
+	font-size: 26px;
+	color: #00670C;
+}
+.top{
+	border-top: 1px solid black;
+}
+.U-order-D{width:80%;height:auto;margin: auto;}
+ .U-order-D th{font-weight:bold;font-size:14px; text-align:center;border:1px #dddddd solid;background:#f1f1f1;}
+ .U-order-D td{border:1px #dddddd solid;text-align:center;}
+ .U-order-D tr{height:40px;line-height:40px;}
+ .U-order-A{width:910px;height:auto;}
+ .U-order-A tr{height:35px;line-height:35px;}
+ #backIntent{
+ 	width: 150px;height: 30px;background: #666666;
+ 	border: none;
+ 	border-radius: 5px;
+ 	cursor: pointer;
+ 	font-size: 16px;
+ 	color:white;
+ 	float: right;
+ }
+ button{
+ 	margin-left: 20px;
+ 	width: 100px;
+ 	border: 1px solid #000000;
+ 	height: 30px;
+ 	cursor: pointer;
+ } 
+ button:hover{
+ 	border: 1px solid #00661C;
+ 	color: #00661C;
+ }
